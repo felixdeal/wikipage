@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 20vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.link{
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    height: 80vh;
+    background-image: url(paysage.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#logo{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+span{
+    font-size: 4em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.252);
+}
+
+button{
+    background: rgb(6,14,131);
+    background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+    border: none;
+}
+
